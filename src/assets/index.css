@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+input {
+    @apply p-2 h-8 w-20 text-center font-mono font-bold;
+}
+
+button {
+    @apply bg-slate-200 rounded-xl p-3 hover:bg-orange-800 hover:text-white;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        width: 100%;
+    }
+}
